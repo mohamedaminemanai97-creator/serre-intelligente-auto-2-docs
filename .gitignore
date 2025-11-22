@@ -1,0 +1,28 @@
+# Docs-only public: ne publier que README, images et wokwi-project.txt
+# Masquer le code et les fichiers techniques
+
+# Python / MicroPython
+*.py
+*.pyc
+*.pyo
+*.mpy
+__pycache__/
+
+# IDE / OS
+.vscode/
+.idea/
+*.code-workspace
+*.lnk
+.DS_Store
+Thumbs.db
+
+# Schéma Wokwi (ne pas publier)
+diagram.json
+
+# Autoriser explicitement (documentation)
+!README.md
+!*.md
+!*.jfif
+!*.svg
+!*.png
+wokwi-project.txt
