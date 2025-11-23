@@ -6,7 +6,6 @@
 
 Serre connectée qui surveille et pilote automatiquement l’arrosage, l’éclairage et la ventilation en fonction des capteurs (DHT22, humidité du sol, luminosité LDR) et du niveau d’eau (HC‑SR04), avec affichage sur OLED SSD1306.
 
-Lien Wokwi (simulation) : https://wokwi.com/projects/440650914275907585
 
 ## Démonstration
 
@@ -30,10 +29,6 @@ Lien Wokwi (simulation) : https://wokwi.com/projects/440650914275907585
 - Buzzer (GPIO17)
 - Écran OLED SSD1306 I2C (SDA=GPIO23, SCL=GPIO22)
 - Module ultrason HC‑SR04 (TRIG=GPIO26, ECHO=GPIO5)
-
-## Schéma & Simulation
-- Schéma de câblage : voir `diagram.json` (export Wokwi)
-- Simuler ce projet : https://wokwi.com/projects/440650914275907585 (voir aussi `wokwi-project.txt`)
 
 ## Fonctionnalités
 - Lecture des capteurs (température, humidité de l’air, humidité du sol, luminosité, niveau d’eau)
